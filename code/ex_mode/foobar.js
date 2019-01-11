@@ -6,8 +6,8 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/dnvim for more book information.
 ***/
-var foo = 1
-var bar = 'a'
-var baz = 'z'
-var foobar = foo + bar
-var foobarbaz = foo + bar + baz
+var foo = 1;
+var bar = 'a';
+var baz = 'z';
+var foobar = foo + bar;
+var foobarbaz = foo + bar + baz;
