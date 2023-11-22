@@ -8,6 +8,7 @@
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
 set scrolloff=5
+set history=200
 
 " Do incremental searching.
 set incsearch
@@ -16,6 +17,9 @@ set incsearch
 map Q gq
 
 " --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
+set easymotion
+map <leader>s <Plug>(easymotion-bd-f2)
+map <leader>l <Plug>(easymotion-bd-jk)
 
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
