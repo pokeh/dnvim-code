@@ -43,3 +43,16 @@ nnoremap <Leader>u <C-r>
 nnoremap <Space> <Nop>
 inoremap <C-;> <Esc>
 inoremap <C-f> <C-r>
+
+
+"nnoremap / :<C-u>action Find<CR>
+nnoremap <C-o> :<C-u>action Back<CR>
+nnoremap <C-i> :<C-u>action Forward<CR>
+nnoremap cre :<C-u>action RenameElement<CR>
+nnoremap <Home> ^
+inoremap <Home> <C-o>^
+vnoremap <Home> ^
+
+Plug 'vim-matchit'
+set surround
+nnoremap <Leader>p "0P
