@@ -12,6 +12,13 @@ set history=200
 
 " Do incremental searching.
 set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+" set showmatch matchtime=1
+" set showmatch
+set whichwrap=b,s,h,l,<,>,[,],~
+set showmode
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
