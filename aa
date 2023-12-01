@@ -13,6 +13,7 @@ set history=200
 " Do incremental searching.
 set incsearch
 set hlsearch
+nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
 set ignorecase
 set smartcase
 " set showmatch matchtime=1
@@ -55,4 +56,5 @@ inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
 
 vnoremap <Home> ^
+
 
