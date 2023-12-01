@@ -16,9 +16,10 @@ set hlsearch
 set ignorecase
 set smartcase
 " set showmatch matchtime=1
-" set showmatch
-set whichwrap=b,s,h,l,<,>,[,],~
-set showmode
+" set showmatcH
+set WHICHWrap=b,s,h,l,<,>,[,],~
+set showcmd
+set number relativenumber
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
@@ -35,6 +36,8 @@ set nrformats=
 
 Plug 'vim-matchit'
 set surround
+set argtextobj
+set textobj-entire
 
 let mapleader = "\<space>"
 
@@ -52,3 +55,4 @@ inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
 
 vnoremap <Home> ^
+
