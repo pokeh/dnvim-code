@@ -50,11 +50,11 @@ nnoremap <C-o> :<C-u>action Back<CR>
 nnoremap <C-i> :<C-u>action Forward<CR>
 nnoremap cre :<C-u>action RenameElement<CR>
 nnoremap <Home> ^
+nnoremap x "_x
 
 inoremap <C-;> <Esc>
 inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
 
 vnoremap <Home> ^
-
 
